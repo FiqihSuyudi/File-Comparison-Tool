@@ -1,0 +1,68 @@
+🚀 Features
+🔍 Smart Data Comparison
+Compare two datasets using custom key columns
+Detect:
+Added records
+Missing records
+Modified values
+
+🧮 Intelligent Data Normalization
+Automatic handling of:
+Dates (standardized format)
+Numeric values (tolerance-based comparison)
+Text (case-insensitive, trimmed)
+
+⚖️ Tolerance-Based Numeric Matching
+Avoid false mismatches due to rounding differences
+Configurable tolerance level
+
+🧩 Flexible Column Control
+Select key columns for matching
+Ignore irrelevant columns during comparison
+
+🧠 Smart Matching Mode
+Handles duplicate records using advanced matching logic
+Performs second-pass reconciliation for better accuracy
+
+📊 Detailed Comparison Output
+Status classification:
+same
+different
+only_in_file1
+only_in_file2
+Displays exact columns with differences
+
+🖥️ User-Friendly GUI
+Built with Tkinter
+File selection, column selection, preview, and export in one interface
+📤 Export Results
+Export comparison results to Excel for reporting and auditing
+
+🛠️ Tech Stack
+Python
+Pandas
+Tkinter (GUI)
+
+📂 Use Case
+
+This tool is especially useful for:
+
+Data validation between daily reports
+QA checks for ETL pipelines
+Financial data reconciliation
+Comparing system exports (before vs after)
+Detecting discrepancies in large datasets
+
+💡 Example Scenario
+
+You have:
+
+Yesterday’s data export
+Today’s data export
+
+This tool will:
+
+Match records based on selected keys
+Identify changes in values
+Highlight missing or new records
+Provide a clean, structured comparison output
